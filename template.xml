@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zabbix_export>
+    <version>2.0</version>
+    <date>2015-04-01T20:31:55Z</date>
+    <groups>
+        <group>
+            <name>Templates</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>Template App PostgreSQL</template>
+            <name>Template App PostgreSQL</name>
+            <description />
+            <groups>
+                <group>
+                    <name>Templates</name>
+                </group>
+            </groups>
+            <applications>
+                <application>
+                    <name>PostgreSQL server</name>
+                </application>
+            </applications>
+            <items>
+                <item>
+                    <name>Active connections</name>
+                    <type>0</type>
+                    <snmp_community />
+                    <multiplier>0</multiplier>
+                    <snmp_oid />
+                    <key>psql.active_connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    <delay>60</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts />
+                    <units />
+                    <delta>0</delta>
+                    <snmpv3_contextname />
+                    <snmpv3_securityname />
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase />
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase />
+                    <formula>1</formula>
+                    <delay_flex />
+                    <params />
+                    <ipmi_sensor />
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username />
+                    <password />
+                    <publickey />
+                    <privatekey />
+                    <port />
+                    <description />
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PostgreSQL server</name>
+                        </application>
+                    </applications>
+                    <valuemap />
+                    <logtimefmt />
+                </item>
+                <item>
+                    <name>Connections</name>
+                    <type>0</type>
+                    <snmp_community />
+                    <multiplier>0</multiplier>
+                    <snmp_oid />
+                    <key>psql.connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    <delay>60</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts />
+                    <units />
+                    <delta>0</delta>
+                    <snmpv3_contextname />
+                    <snmpv3_securityname />
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase />
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase />
+                    <formula>1</formula>
+                    <delay_flex />
+                    <params />
+                    <ipmi_sensor />
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username />
+                    <password />
+                    <publickey />
+                    <privatekey />
+                    <port />
+                    <description />
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PostgreSQL server</name>
+                        </application>
+                    </applications>
+                    <valuemap />
+                    <logtimefmt />
+                </item>
+                <item>
+                    <name>Idle connections</name>
+                    <type>0</type>
+                    <snmp_community />
+                    <multiplier>0</multiplier>
+                    <snmp_oid />
+                    <key>psql.idle_connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    <delay>60</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts />
+                    <units />
+                    <delta>0</delta>
+                    <snmpv3_contextname />
+                    <snmpv3_securityname />
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase />
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase />
+                    <formula>1</formula>
+                    <delay_flex />
+                    <params />
+                    <ipmi_sensor />
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username />
+                    <password />
+                    <publickey />
+                    <privatekey />
+                    <port />
+                    <description />
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PostgreSQL server</name>
+                        </application>
+                    </applications>
+                    <valuemap />
+                    <logtimefmt />
+                </item>
+                <item>
+                    <name>Idle in transaction connections</name>
+                    <type>0</type>
+                    <snmp_community />
+                    <multiplier>0</multiplier>
+                    <snmp_oid />
+                    <key>psql.idle_in_tx_connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    <delay>60</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts />
+                    <units />
+                    <delta>0</delta>
+                    <snmpv3_contextname />
+                    <snmpv3_securityname />
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase />
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase />
+                    <formula>1</formula>
+                    <delay_flex />
+                    <params />
+                    <ipmi_sensor />
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username />
+                    <password />
+                    <publickey />
+                    <privatekey />
+                    <port />
+                    <description />
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PostgreSQL server</name>
+                        </application>
+                    </applications>
+                    <valuemap />
+                    <logtimefmt />
+                </item>
+                <item>
+                    <name>Lock-waiting connections</name>
+                    <type>0</type>
+                    <snmp_community />
+                    <multiplier>0</multiplier>
+                    <snmp_oid />
+                    <key>psql.lock_waiting_connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    <delay>60</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts />
+                    <units />
+                    <delta>0</delta>
+                    <snmpv3_contextname />
+                    <snmpv3_securityname />
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase />
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase />
+                    <formula>1</formula>
+                    <delay_flex />
+                    <params />
+                    <ipmi_sensor />
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username />
+                    <password />
+                    <publickey />
+                    <privatekey />
+                    <port />
+                    <description />
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PostgreSQL server</name>
+                        </application>
+                    </applications>
+                    <valuemap />
+                    <logtimefmt />
+                </item>
+                <item>
+                    <name>Max connections</name>
+                    <type>0</type>
+                    <snmp_community />
+                    <multiplier>0</multiplier>
+                    <snmp_oid />
+                    <key>psql.max_connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    <delay>300</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts />
+                    <units />
+                    <delta>0</delta>
+                    <snmpv3_contextname />
+                    <snmpv3_securityname />
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase />
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase />
+                    <formula>1</formula>
+                    <delay_flex />
+                    <params />
+                    <ipmi_sensor />
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username />
+                    <password />
+                    <publickey />
+                    <privatekey />
+                    <port />
+                    <description />
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>PostgreSQL server</name>
+                        </application>
+                    </applications>
+                    <valuemap />
+                    <logtimefmt />
+                </item>
+            </items>
+            <discovery_rules>
+                <discovery_rule>
+                    <name>PostgreSQL databases discovery</name>
+                    <type>0</type>
+                    <snmp_community />
+                    <snmp_oid />
+                    <key>psql.discovery.dbs[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    <delay>600</delay>
+                    <status>0</status>
+                    <allowed_hosts />
+                    <snmpv3_contextname />
+                    <snmpv3_securityname />
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase />
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase />
+                    <delay_flex />
+                    <params />
+                    <ipmi_sensor />
+                    <authtype>0</authtype>
+                    <username />
+                    <password />
+                    <publickey />
+                    <privatekey />
+                    <port />
+                    <filter>
+                        <evaltype>0</evaltype>
+                        <formula />
+                        <conditions />
+                    </filter>
+                    <lifetime>30</lifetime>
+                    <description />
+                    <item_prototypes>
+                        <item_prototype>
+                            <name>[{#DB_NAME}] Committed transactions</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.db.committed_txs[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}] Database size</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>psql.db.size[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]</key>
+                            <delay>60</delay>
+                            <history>30</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units>B</units>
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}] Deleted tuples</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.db.deleted_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}] Fetched tuples</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.db.fetched_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}] Inserted tuples</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.db.inserted_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}] Returned tuples</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.db.returned_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}] Rolled back transactions</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.db.rolledback_txs[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}] Updated tuples</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.db.updated_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                    </item_prototypes>
+                    <trigger_prototypes />
+                    <graph_prototypes>
+                        <graph_prototype>
+                            <name>[{#DB_NAME}] Transactions</name>
+                            <width>900</width>
+                            <height>200</height>
+                            <yaxismin>0.0000</yaxismin>
+                            <yaxismax>100.0000</yaxismax>
+                            <show_work_period>1</show_work_period>
+                            <show_triggers>1</show_triggers>
+                            <type>0</type>
+                            <show_legend>1</show_legend>
+                            <show_3d>0</show_3d>
+                            <percent_left>0.0000</percent_left>
+                            <percent_right>0.0000</percent_right>
+                            <ymin_type_1>0</ymin_type_1>
+                            <ymax_type_1>0</ymax_type_1>
+                            <ymin_item_1>0</ymin_item_1>
+                            <ymax_item_1>0</ymax_item_1>
+                            <graph_items>
+                                <graph_item>
+                                    <sortorder>0</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>00C800</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.db.committed_txs[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>1</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>C80000</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.db.rolledback_txs[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                            </graph_items>
+                        </graph_prototype>
+                        <graph_prototype>
+                            <name>[{#DB_NAME}] Tuples</name>
+                            <width>900</width>
+                            <height>200</height>
+                            <yaxismin>0.0000</yaxismin>
+                            <yaxismax>100.0000</yaxismax>
+                            <show_work_period>1</show_work_period>
+                            <show_triggers>1</show_triggers>
+                            <type>0</type>
+                            <show_legend>1</show_legend>
+                            <show_3d>0</show_3d>
+                            <percent_left>0.0000</percent_left>
+                            <percent_right>0.0000</percent_right>
+                            <ymin_type_1>0</ymin_type_1>
+                            <ymax_type_1>0</ymax_type_1>
+                            <ymin_item_1>0</ymin_item_1>
+                            <ymax_item_1>0</ymax_item_1>
+                            <graph_items>
+                                <graph_item>
+                                    <sortorder>4</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>FF6666</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.db.deleted_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>1</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>CCCCCC</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.db.fetched_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>0</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>888888</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.db.returned_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>3</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>3333FF</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.db.updated_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>2</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>33FF33</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.db.inserted_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE},{#DB_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                            </graph_items>
+                        </graph_prototype>
+                    </graph_prototypes>
+                    <host_prototypes />
+                </discovery_rule>
+                <discovery_rule>
+                    <name>PostgreSQL tables discovery</name>
+                    <type>0</type>
+                    <snmp_community />
+                    <snmp_oid />
+                    <key>psql.discovery.tables[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    <delay>600</delay>
+                    <status>0</status>
+                    <allowed_hosts />
+                    <snmpv3_contextname />
+                    <snmpv3_securityname />
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase />
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase />
+                    <delay_flex />
+                    <params />
+                    <ipmi_sensor />
+                    <authtype>0</authtype>
+                    <username />
+                    <password />
+                    <publickey />
+                    <privatekey />
+                    <port />
+                    <filter>
+                        <evaltype>0</evaltype>
+                        <formula />
+                        <conditions />
+                    </filter>
+                    <lifetime>30</lifetime>
+                    <description />
+                    <item_prototypes>
+                        <item_prototype>
+                            <name>[{#DB_NAME}.{#SCHEMA_NAME}.{#TABLE_NAME}] Deleted tuples</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.table.deleted_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}.{#SCHEMA_NAME}.{#TABLE_NAME}] Inserted tuples</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.table.inserted_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}.{#SCHEMA_NAME}.{#TABLE_NAME}] Row count</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.table.rows[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>30</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}.{#SCHEMA_NAME}.{#TABLE_NAME}] Sequential scans</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.table.seq_scans[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}.{#SCHEMA_NAME}.{#TABLE_NAME}] Tuples fetched by index scans</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.table.fetched_tuples_idx[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}.{#SCHEMA_NAME}.{#TABLE_NAME}] Tuples fetched by sequential scans</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.table.fetched_tuples_seq[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                        <item_prototype>
+                            <name>[{#DB_NAME}.{#SCHEMA_NAME}.{#TABLE_NAME}] Updated tuples</name>
+                            <type>0</type>
+                            <snmp_community />
+                            <multiplier>0</multiplier>
+                            <snmp_oid />
+                            <key>
+                                psql.table.updated_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                            </key>
+                            <delay>60</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts />
+                            <units />
+                            <delta>0</delta>
+                            <snmpv3_contextname />
+                            <snmpv3_securityname />
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase />
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase />
+                            <formula>1</formula>
+                            <delay_flex />
+                            <params />
+                            <ipmi_sensor />
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username />
+                            <password />
+                            <publickey />
+                            <privatekey />
+                            <port />
+                            <description />
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>PostgreSQL server</name>
+                                </application>
+                            </applications>
+                            <valuemap />
+                            <logtimefmt />
+                        </item_prototype>
+                    </item_prototypes>
+                    <trigger_prototypes />
+                    <graph_prototypes>
+                        <graph_prototype>
+                            <name>[{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}] Row count</name>
+                            <width>900</width>
+                            <height>200</height>
+                            <yaxismin>0.0000</yaxismin>
+                            <yaxismax>100.0000</yaxismax>
+                            <show_work_period>1</show_work_period>
+                            <show_triggers>1</show_triggers>
+                            <type>0</type>
+                            <show_legend>1</show_legend>
+                            <show_3d>0</show_3d>
+                            <percent_left>0.0000</percent_left>
+                            <percent_right>0.0000</percent_right>
+                            <ymin_type_1>0</ymin_type_1>
+                            <ymax_type_1>0</ymax_type_1>
+                            <ymin_item_1>0</ymin_item_1>
+                            <ymax_item_1>0</ymax_item_1>
+                            <graph_items>
+                                <graph_item>
+                                    <sortorder>0</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>3333FF</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.table.rows[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                            </graph_items>
+                        </graph_prototype>
+                        <graph_prototype>
+                            <name>[{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}] Tuples</name>
+                            <width>900</width>
+                            <height>200</height>
+                            <yaxismin>0.0000</yaxismin>
+                            <yaxismax>100.0000</yaxismax>
+                            <show_work_period>1</show_work_period>
+                            <show_triggers>1</show_triggers>
+                            <type>0</type>
+                            <show_legend>1</show_legend>
+                            <show_3d>0</show_3d>
+                            <percent_left>0.0000</percent_left>
+                            <percent_right>0.0000</percent_right>
+                            <ymin_type_1>0</ymin_type_1>
+                            <ymax_type_1>0</ymax_type_1>
+                            <ymin_item_1>0</ymin_item_1>
+                            <ymax_item_1>0</ymax_item_1>
+                            <graph_items>
+                                <graph_item>
+                                    <sortorder>1</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>3333FF</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.table.updated_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>0</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>33FF33</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.table.inserted_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>2</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>FF6666</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App PostgreSQL</host>
+                                        <key>
+                                            psql.table.deleted_tuples[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{#DB_NAME},{#SCHEMA_NAME},{#TABLE_NAME}]
+                                        </key>
+                                    </item>
+                                </graph_item>
+                            </graph_items>
+                        </graph_prototype>
+                    </graph_prototypes>
+                    <host_prototypes />
+                </discovery_rule>
+            </discovery_rules>
+            <macros>
+                <macro>
+                    <macro>{$PSQL_DATABASE}</macro>
+                    <value>postgres</value>
+                </macro>
+                <macro>
+                    <macro>{$PSQL_HOST}</macro>
+                    <value>localhost</value>
+                </macro>
+                <macro>
+                    <macro>{$PSQL_PORT}</macro>
+                    <value>5432</value>
+                </macro>
+                <macro>
+                    <macro>{$PSQL_USER}</macro>
+                    <value>guest</value>
+                </macro>
+            </macros>
+            <templates />
+            <screens />
+        </template>
+    </templates>
+    <graphs>
+        <graph>
+            <name>Connections</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>0</ymin_type_1>
+            <ymax_type_1>0</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>0</ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>00C800</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template App PostgreSQL</host>
+                        <key>psql.active_connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <drawtype>2</drawtype>
+                    <color>FF6666</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template App PostgreSQL</host>
+                        <key>psql.idle_in_tx_connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <drawtype>2</drawtype>
+                    <color>EE0000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template App PostgreSQL</host>
+                        <key>psql.lock_waiting_connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]
+                        </key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>3333FF</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template App PostgreSQL</host>
+                        <key>psql.connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>999999</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template App PostgreSQL</host>
+                        <key>psql.idle_connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>4</drawtype>
+                    <color>CC0000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template App PostgreSQL</host>
+                        <key>psql.max_connections[{$PSQL_HOST},{$PSQL_PORT},{$PSQL_USER},{$PSQL_DATABASE}]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+    </graphs>
+</zabbix_export>
